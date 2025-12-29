@@ -16,5 +16,11 @@ public class Test_Maker {
         cm.setSugar(250);
         cm.makeDrink();
 
+        Herbs_Maker hm = new Herbs_Maker();
+        hm.setWater(1);
+        hm.setHerb("Chamomile");
+        hm.setSugar(250);
+        hm.makeDrink();
+        
     }
 }
